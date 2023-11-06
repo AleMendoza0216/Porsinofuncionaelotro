@@ -1,0 +1,43 @@
+{
+  "colombian_food": [
+    {
+      "name": "Ajiaco",
+      "description": "Soup made with potatoes, chicken, corn, and guascas. Native ingredients blend with capers and chicken.",
+      "price": 15900,
+      "image": "https://www.zenu.com.co/wp-content/uploads/2022/07/ajiaco.webp"
+    },
+    {
+      "name": "Tamales",
+      "description": "Corn or rice dough stuffed with meats, vegetables, sauces, and other ingredients, wrapped in vegetable leaves.",
+      "price": 19900,
+      "image": "https://boquisabroso.com.co/wp-content/uploads/2023/02/Receta-de-Tamal-Colombiano.jpg"
+    },
+    {
+      "name": "Sancocho",
+      "description": "Sancocho is basically a very thick soup made with root vegetables and different types of meats in a broth, usually flavored.",
+      "price": 15900,
+      "image": "https://cdn7.kiwilimon.com/brightcove/7752/640x640/7752.jpg.webp"
+    }
+  ],
+  "paisa_food": [
+      {
+          "name": "Paisa Arepas",
+          "description": "Typical arepas from the Antioquia region.",
+          "price": 2.99,
+          "image": "https://cdn0.recetasgratis.net/es/posts/1/8/4/arepa_paisa_75481_orig.jpg"
+      },
+      {
+        "name": "Bandeja Paisa",
+        "description": "It includes white rice, red beans, chicharrón, Antioquian chorizo, fried egg, ripe plantain, avocado, and arepa.",
+        "price": 25900,
+        "image": "https://cdn.colombia.com/gastronomia/2011/08/02/bandeja-paisa-1616.gif"
+      },
+      
+      {
+        "name": "Antioquean Beans",
+        "description": "They are prepared with beans, tomatoes, onion, garlic, carrot, plantain, pig's hoof, chicharron, and cilantro.",
+        "price": 15.99,
+        "image": "https://triguisar.com.co/wp-content/uploads/2017/07/frijolesantiouenos.png"
+      }
+  ]
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.2/litera/bootstrap.min.css"
+      integrity="sha512-FAKbqNc1K2O4cnjyyiTs7loU3hwtcTF5y59TnJMcPJK/fbzY8kJaMGak8/Nsg5VL9CLiUf7M06ct+mleM2UnwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ColFood</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary shadow fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Típico Paisa</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor04"
+            aria-controls="navbarColor04"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor04">
+            <ul class="navbar-nav mx-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link active ms-2" href="#" href="#inicio">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="#">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-2" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="start mt-4" id="start">
+      <div class="start_container">
+        <div>
+          <div class="content">
+            <h2>Empanada</h2>
+          </div>
+        </div>
+        <div>
+          <div class="content">
+            <h2>Arepa</h2>
+          </div>
+        </div>
+        <div>
+          <div class="content">
+            <h2>Paisa Platter</h2>
+          </div>
+        </div>
+        <div>
+          <div class="content">
+            <h2>Sancocho</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <h1 class="mt-10 text-center">
+      Most Popular Dishes
+    </h1>
+    <hr>
+    <div id="header"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Colombian Food - Odd Items -->
+          <div class="card">
+            <div class="card-image">
+              <img src="https://www.zenu.com.co/wp-content/uploads/2022/07/ajiaco.webp" alt="Ajiaco">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Ajiaco</h2>
+              <p class="card-body">
+                Potatoes, chicken, corn, and guascas. Native ingredients blend with capers and chicken.
+              </p>
+              <p class="card-price">Price: $15.90</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="https://boquisabroso.com.co/wp-content/uploads/2023/02/Receta-de-Tamal-Colombiano.jpg" alt="Tamales">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Tamales</h2>
+              <p class="card-body">Corn or rice dough stuffed with meats, vegetables, sauces, and other ingredients, wrapped in vegetable leaves.</p>
+              <p class="card-price">Price: $19.90</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- Paisa Food - Even Items -->
+          <div class="card">
+            <div class="card-image">
+              <img src="https://cdn0.recetasgratis.net/es/posts/1/8/4/arepa_paisa_75481_orig.jpg" alt="Paisa Arepas">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Paisa Arepas</h2>
+              <p class="card-body">Typical arepas from the Antioquia region.</p>
+              <p class="card-price">Price: $2.99</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="https://cdn.colombia.com/gastronomia/2011/08/02/bandeja-paisa-1616.gif" alt="Bandeja Paisa">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Bandeja Paisa</h2>
+              <p class="card-body">It includes white rice, red beans, chicharrón, Antioquian chorizo, fried egg, ripe plantain, avocado, and arepa.</p>
+              <p class="card-price">Price: $25.90</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <h2 class="text-center">Menu</h2>
+    <br>
+    <div class="menu-container" id="menu">
+      <div class="text-center">
+        <button id="colombianButton" class="btn btn-warning me-2">Colombian Food</button>
+        <button id="paisaButton" class="btn btn-success">Paisa Food</button>
+      </div>
+
+      <div id="menuContainer" class="mt-4"></div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
